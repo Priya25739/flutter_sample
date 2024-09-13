@@ -1,0 +1,47 @@
+name: hotel
+description: A new Flutter project
+
+publish_to: 'none' # Remove this line if you want to publish the package
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Add any direct dependencies here
+  font_awesome_flutter: ^10.5.0
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # To generate code or for advanced testing, add dev dependencies here.
+
+# To override transitive dependencies or force updates, use dependency_overrides:
+# dependency_overrides:
+#   collection: ^1.19.0
+#   material_color_utilities: ^0.12.0
+
+flutter:
+
+  # The following line ensures that the Material Icons font is included with your application,
+  # so that you can use the icons in the material Icons class.
+  uses-material-design: true
+
+  # Add assets like images
+  assets:
+    - assets/
+
+  # Add fonts (if any) here
+  # fonts:
+  #   - family: OpenSans
+  #     fonts:
+  #       - asset: fonts/OpenSans-Regular.ttf
